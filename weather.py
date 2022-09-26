@@ -10,7 +10,7 @@ def temperatura_atual():
     requisicao_dic = requisicao.json()
     temperatura = requisicao_dic['main']['temp'] - 273.15
 
-    return temperatura
+    return round(temperatura)
 
 
 def umidade_atual():
