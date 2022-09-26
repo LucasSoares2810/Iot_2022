@@ -1,3 +1,5 @@
+import time
+
 import weather
 
 
@@ -11,14 +13,11 @@ def umidade():
     return umidade
 
 
-def aquecedor():
-    aquecendo = temperatura()
-    if temperatura() <= 30:
-        aquecendo += 1
+def aquecedor(estado: str):
+    if estado == 'on':
+        print("botão LIGADO")
+    else:
+        print("Botão Desligado")
 
 
 
-
-temp = temperatura()
-
-umid = umidade()
