@@ -1,0 +1,1 @@
+# Iot_2022 - Este é um pequeno projeto que simula um sistema de controle de estufa, este projeto tem como objetivo mostrar como lidar com o protocolo MQTT, muito usado no desenvolviemento para internet das coisas.
